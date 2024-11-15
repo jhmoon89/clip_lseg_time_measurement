@@ -7,12 +7,11 @@
 3. Lseg image feature model (Resnet): 14.841ms
 
 ## make trt file from onnx file
-onnx파일이 있는 곳으로 간 다음 터미널을 열고 다음을 수행한다.
+Navigate to the directory where your ONNX file is located, open a terminal, and execute the following command:
 ```
 /usr/src/tensorrt/bin/trtexec --onnx=xxxxx.onnx --saveEngine=xxxxx.trt
 ```
---onnx에 내가 저장해둔 onnx파일, --saveEngine에 내가 trt파일로 저장하고픈 이름을 쓰면 된다.
-그러면 같은 폴더에 trt파일이 생성된다.
+Replace xxxxx.onnx with the name of your ONNX file and xxxxx.trt with the desired name for your TensorRT file. The resulting .trt file will be created in the same folder.
 
 
 ## Setup
