@@ -4,7 +4,7 @@
 
 1. CLIP only (output: vector) : 2.265ms
 2. Lseg image feature model (Vit): 17.388ms
-3. Lseg image feature model (Resnet): 14.841ms
+3. Lseg image feature model (Resnet): 18.709ms
 
 ## make trt file from onnx file
 Navigate to the directory where your ONNX file is located, open a terminal, and execute the following command:
